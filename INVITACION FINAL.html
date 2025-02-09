@@ -1,0 +1,91 @@
+DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación Especial</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color:#ffe6e6;
+            text-align: center;
+            padding: 20px;
+        }
+        .container{
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            display: inline-block;
+            margin-top: 50px;   
+        }
+        h1{
+            color: #ff4d4d;
+        }
+        p{
+            color: #333;
+            font-size: 18px;
+        }
+        .button-container{
+            margin-top: 20px;
+        }
+        .confirm-button, .decline-button{
+            background-color: #ff4d4d;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 0 10px;
+        }
+        .confim-button:hover{
+            background-color: #cc0000;
+        }
+        .decline-button{
+            background-color: #666;
+        } 
+        .decline-button:hover{
+            background-color: #444;
+        }  
+        .photo-gallery{
+            margin-top: 20px;
+        }
+        .photo-gallery img{
+            width: 150px;
+            height: auto;
+            border-radius: 10px;
+            margin: 0 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¡Feliz San Valentín chaparra!</h1>
+        <p>Quiero invitarte a una cita especial para celebrar este dia. Sera un dia lleno de risas, amor y mucha felicidad.</p>
+        <p>¿Aceptarias ser mi cita mi amor?</p>
+
+        <div class="photo-gallery">
+            <img src="IMAGENES/foto 1.jpg" alt="Foto 1">
+            <img src="IMAGENES/foto 2.jpg" alt="Foto 2">
+            <img src="IMAGENES/foto 3.jpg" alt="Foto 3">
+        </div>
+
+    </div class="button-container">
+        <button class="confirm-button" onclick="confirmarAsistencia()">¡Claro que si!</button>
+        <button class="decline-button" onclick="declinarAsistencia()">Lo siento, no puedo</button>
+    </div>
+</div>
+<script>
+    function confirmarAsistencia(){
+        alert('¡Genial! Estoy muy emocionado por pasar este dia contigo. Te amo mucho chaparra, Ponte bonita como siempre');
+    }
+    function declinarAsistencia(){
+        alert('Hmmmmmyaaveooo, que mas tienes que hacer eh?');
+
+    }
+</script>
+</body>
+</html
